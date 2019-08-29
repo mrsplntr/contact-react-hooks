@@ -1,0 +1,50 @@
+img {
+  border-radius: 50%;
+}
+
+.icons {
+  background: url(../../../../Assets/sprite-icone.png);
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+}
+
+.pencil {
+  background-position: 1px -71px;
+}
+
+.trash {
+  background-position: 19px 1px;
+}
+
+.save {
+  background-position: 180px 0px;
+}
+
+.cancel {
+  background-position: 162px 1px;
+}
+
+.location {
+  cursor: none;
+  height: 10px;
+  width: 10px;
+  background-size: 325px 124px;
+  background-position: -18px -56px
+  /* background-position: -26px -66px; */
+}
+
+.rectangle {
+  margin: 5px 5px 20px 5px;
+  padding: 20px 0px 5px 20px;
+  border: 1px solid rgb(231, 234, 236);
+  background: white;
+}
+
+.posTitle {
+  text-align: center;
+  font-size: 70%;
+  font-weight: 700;
+}
+

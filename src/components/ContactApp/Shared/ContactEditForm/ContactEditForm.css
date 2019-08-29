@@ -1,0 +1,11 @@
+input {
+  line-height: normal;
+  border: 0;
+  border-bottom: 1px solid blue;
+  width: 80%;
+}
+
+input:focus {
+  outline: none;
+  background-color: yellow;
+}
